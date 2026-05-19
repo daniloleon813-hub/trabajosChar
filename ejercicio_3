@@ -11,4 +11,19 @@ namespace MyApplication
         }
     }
 }
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x = 3.15 + 4.75 ;
+            Console.WriteLine(x);
+        }
+    }
+}
+
+
 
