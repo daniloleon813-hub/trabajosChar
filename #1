@@ -1,0 +1,26 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Solicitar horas estimadas
+        Console.Write("Ingrese las horas estimadas de desarrollo: ");
+        
+        // Capturar dato como string
+        string entrada = Console.ReadLine();
+
+        // Convertir string a entero
+        int horas = Convert.ToInt32(entrada);
+
+        // Valor por hora
+        int valorHora = 50000;
+
+        // Calcular costo acumulado
+        int costoTotal = horas * valorHora;
+
+        // Mostrar resultados
+        Console.WriteLine("Horas estimadas: " + horas);
+        Console.WriteLine("Costo total del sprint: $" + costoTotal);
+    }
+}
